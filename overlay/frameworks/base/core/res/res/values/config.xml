@@ -328,6 +328,11 @@
         <item>10000</item>
     </integer-array>
 
+    <!-- Radius of the software rounded corners at the top and bottom of the display in its
+        natural orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_top">84.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">68.0px</dimen>
+
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
