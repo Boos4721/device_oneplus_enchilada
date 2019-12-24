@@ -24,6 +24,10 @@ $(call inherit-product, device/oneplus/enchilada/device.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Inf
+TARGET_GAPPS_ARCH := ARM64
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := aosp_enchilada
 PRODUCT_DEVICE := enchilada
 PRODUCT_MANUFACTURER := OnePlus
