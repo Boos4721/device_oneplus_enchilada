@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_enchilada.mk
+    $(LOCAL_DIR)/hentai_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_enchilada-user \
-    aosp_enchilada-userdebug \
-    aosp_enchilada-eng
+    hentai_enchilada-user \
+    hentai_enchilada-userdebug \
+    hentai_enchilada-eng
